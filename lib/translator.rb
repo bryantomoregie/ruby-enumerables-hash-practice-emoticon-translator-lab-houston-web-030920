@@ -8,9 +8,10 @@ def load_library(file_path)
     "get_emoticon" => {}
   }
   emoticons.each do |key, value|
-    binding.pry
-    
+    new_hash["get_meaning"][value[1]] = key 
+    new_hash["get_emoticon"][value[0]] = value[1] 
   end
+  binding.pry
   new_hash
 end
 
