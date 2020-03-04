@@ -30,3 +30,4 @@ def get_english_meaning(file_path, emoticon)
   if !emoticons["get_meaning"][emoticon]
   # binding.pry 
 end
+end
