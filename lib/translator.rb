@@ -29,5 +29,5 @@ def get_english_meaning(file_path, emoticon)
   emoticons["get_meaning"][emoticon]
   # if !emoticons["get_meaning"][emoticon]
   # binding.pry 
-end
+# end
 end
