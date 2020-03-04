@@ -17,7 +17,8 @@ end
 def get_japanese_emoticon(file_path, emoticon)
   emoticons = load_library(file_path)
   emoticons["get_emoticon"][emoticon]
-  if 
+  if !emoticons["get_emoticon"][emoticon] 
+    return ""
   # binding.pry 
 end
 
